@@ -1,8 +1,25 @@
 # Hands-On Lab Guide (Session 1): ESP32 Wi-Fi Protocol, HTTP & REST APIs
 
 **Duration:** 3 Hours (180 Minutes)  
-**Target Framework:** ESP-IDF (v5.x)  
+**Target Framework:** ESP-IDF (v6.x / v5.x)  
 **Next Session Preview:** Session 2 will use the `device_token` and `assigned_mqtt_topic` obtained in Module 4 of this lab to publish live sensor data over MQTT and MQTT over TLS (`mqtts://`).
+
+---
+
+## Official ESP-IDF & External Library API Documentation
+
+Use these verified official API documentation links for reference throughout the lab:
+
+- **ESP-IDF Wi-Fi & Networking Stack:**
+  - [ESP-IDF Wi-Fi Driver API Reference (`esp_wifi`)](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/network/esp_wifi.html)
+  - [ESP-NETIF TCP/IP Adapter API Reference (`esp_netif`)](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/network/esp_netif.html)
+  - [ESP Event Loop Library (`esp_event`)](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/esp_event.html)
+  - [FreeRTOS (ESP-IDF Event Groups & Tasks)](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/freertos_idf.html)
+  - [Non-Volatile Storage Library (`nvs_flash`)](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/storage/nvs_flash.html)
+- **HTTP Client & JSON (`cJSON`):**
+  - [ESP HTTP Client API Reference (`esp_http_client`)](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/protocols/esp_http_client.html)
+  - [ESP Component Registry: `espressif/cjson`](https://components.espressif.com/components/espressif/cjson)
+  - [DaveGamble/cJSON Official Library Documentation](https://github.com/DaveGamble/cJSON)
 
 ---
 
