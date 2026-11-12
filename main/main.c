@@ -44,8 +44,8 @@ static const char *TAG = "LAB_MAIN";
 #define WEATHER_API_URL         "http://api.open-meteo.com/v1/forecast?latitude=4.61&longitude=-74.08&current_weather=true"
 
 /* 4. Instructor FastAPI IoT Enrollment Endpoint (POST)
- *    Replace 192.168.1.100 with the IP address of the computer running `enrollment_server.py` */
-#define FASTAPI_SERVER_URL      "http://192.168.1.100:8000/api/v1/enroll"
+ *    Hosted on HostingServer (eniacelectronics.cloud / 72.61.77.81:8000) */
+#define FASTAPI_SERVER_URL      "http://eniacelectronics.cloud:8000/api/v1/enroll"
 
 /* 5. Progressive Lab Step Toggles (Set to 1 to enable, 0 to skip) */
 #define LAB_ENABLE_STEP_1_SCAN      1   /* Module 1: 802.11 AP Scan */
